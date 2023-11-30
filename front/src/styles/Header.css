@@ -1,0 +1,15 @@
+.title {
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .title.show-on-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 900px) {
+    .title.show-on-menu {
+        display: none;
+    }
+}

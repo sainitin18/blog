@@ -1,0 +1,45 @@
+.export-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.export-content {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.export-container .export-content .onExport {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.export-image {
+    width: 50%;
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-size: 90%;
+}
+
+.export-container button {
+    border-radius: 20px;
+    color: beige;
+    font-size: 20px;
+    border: none;
+    padding: 30px 30px;
+    background-color: #dd7973;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.export-container button:hover {
+    background-color: #5dbea3;
+}
